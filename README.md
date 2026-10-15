@@ -1,111 +1,63 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Michael&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20Developer%20·%20TypeScript%20·%20C%23&descAlignY=58&descSize=18" width="100%" alt="header"/>
-
-<a href="https://github.com/mikkyfly">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=Full-stack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;React+%C2%B7+Next.js+%C2%B7+NestJS+%C2%B7+ASP.NET+Core;%D0%94%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4%D1%8B%2C+real-time%2C+%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3;Linux+%C2%B7+SSH+%C2%B7+Docker+%C2%B7+PostgreSQL" alt="typing"/>
-</a>
-
-<!-- TODO: подставьте свои контакты и раскомментируйте нужные бейджи
-<a href="https://t.me/USERNAME"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-<a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://hh.ru/resume/ID"><img src="https://img.shields.io/badge/hh.ru-D6001C?style=for-the-badge&logo=headhunter&logoColor=white" alt="hh.ru"/></a>
--->
-
-</div>
-
-## 👋 Обо мне
-
-Full-stack разработчик. Пишу на **TypeScript** и **C#**: интерфейсы на React / Next.js, бэкенд на Node.js (Express, NestJS) и ASP.NET Core.
-Больше всего люблю задачи на стыке веба и системы: real-time дашборды, мониторинг, WebSocket, работа с Linux-хостами по SSH.
-
-- 🔭 Сейчас развиваю **[Process Monitor](https://github.com/mikkyfly/system-monitoring-local)**: self-hosted мониторинг серверов со встроенным терминалом
-- 🧱 Ценю типизацию, понятную архитектуру и безопасность по умолчанию
-- 🤝 Открыт к предложениям о работе и интересным проектам
-
-## 🛠 Стек
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,js,cs,react,nextjs,tailwind,materialui,html,css&perline=9" alt="frontend"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,dotnet,prisma,postgres,redis,docker,linux,git&perline=10" alt="backend"/>
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Привет, я Михаил — full-stack разработчик"/>
 </p>
 
-| Область | Технологии |
-|---|---|
-| **Frontend** | React, Next.js (App Router), TypeScript, MUI, shadcn/ui + Radix, Tailwind CSS, Recharts, Chart.js, React Hook Form, TanStack Table, xterm.js |
-| **Backend** | Node.js, Express, NestJS, ASP.NET Core (.NET 8), WebSocket, REST |
-| **Данные** | PostgreSQL, Prisma, Redis (сессии) |
-| **Инфраструктура** | Linux, systemd, SSH (ssh2, node-pty), Docker, nvidia-smi, journald |
-| **Безопасность** | сессии + Redis, argon2, reCAPTCHA, токен-аутентификация, проверка Origin |
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://komarev.com/ghpvc/?username=mikkyfly&style=for-the-badge&color=2563EB&label=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D1%8B"/>
+</p>
 
-## 🚀 Избранные проекты
+## 👨‍💻 Обо мне
+
+- 🛠 Делаю full-stack: NestJS и .NET на сервере, React на вебе, Expo на телефоне
+- 🚀 Основной проект — **Таск Мессенджер**: рабочий мессенджер, где у каждого чата своя канбан-доска
+- 🏭 Параллельно делаю **СМИД**: мониторинг промышленных устройств в реальном времени
+- 🧩 Люблю realtime: WebSocket, WebRTC-созвоны, совместное редактирование
+- 🐳 Довожу до прода сам: Docker, nginx, миграции, push-уведомления
+
+<br/>
+
+<p align="center">
+  <img src="assets/project.svg" width="100%" alt="Таск Мессенджер — чаты, задачи, созвоны и документы в одном окне"/>
+</p>
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### 🖥 [Process Monitor](https://github.com/mikkyfly/system-monitoring-local)
-Self-hosted мониторинг Linux-серверов в реальном времени.
-Встроенный терминал **сам переключает метрики на удалённый хост**, когда вы делаете `ssh` в нём.
-
-- CPU / RAM / диск / сеть / GPU / температуры
-- Docker: контейнеры, образы, графики, управление
-- Алерты → Telegram, Slack, Discord, ntfy, email, webhook
-- Аптайм-чеки, SSL, heartbeat, лог-алерты по `journalctl`
-- История в PostgreSQL, мульти-хост, read-only доступ
-
-`React` `TypeScript` `Express` `WebSocket` `node-pty` `ssh2` `PostgreSQL`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 [OAuthNest](https://github.com/mikkyfly/OAuthNest)
-Сервис аутентификации на NestJS.
-
-- Сессии в Redis, хеширование паролей argon2
-- Подтверждение по почте (React Email + Mailer)
-- Защита Google reCAPTCHA
-- Валидация DTO через class-validator
-
-`NestJS` `TypeScript` `Prisma` `Redis` `argon2`
-
-### 📊 [dashboard-next](https://github.com/mikkyfly/dashboard-next)
-Админ-дашборд на Next.js 16 / React 19.
-
-`Next.js` `shadcn/ui` `Radix` `Tailwind` `Recharts` `React Flow`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚚 [OrderTransport](https://github.com/mikkyfly/OrderTransport)
-Система заказов перевозок: бэкенд на ASP.NET Core (.NET 8) + React-клиент ([WebOrderTransport](https://github.com/mikkyfly/WebOrderTransport)).
-
-`C#` `ASP.NET Core` `React` `MUI` `React Router`
-
-</td>
-<td width="50%" valign="top">
-
-### 🗄 [backendDashboard](https://github.com/mikkyfly/backendDashboard)
-Бэкенд для дашборда на C# с работой с PostgreSQL.
-
-`C#` `.NET 8` `PostgreSQL`
-
-</td>
-</tr>
+  <tr>
+    <td width="50%"><img src="assets/shot-chat.png" alt="Переписка"/></td>
+    <td width="50%"><img src="assets/shot-board.png" alt="Доска задач, тёмная тема"/></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>💬 Переписка: голосовые, файлы с правкой в браузере, опросы</sub></td>
+    <td align="center"><sub>📋 Доска чата: метки, сроки, подзадачи, тёмная тема</sub></td>
+  </tr>
 </table>
 
-## 📈 Статистика
+<p align="center">
+  <img src="assets/stats.svg" width="100%" alt="Проект в цифрах"/>
+</p>
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mikkyfly&show_icons=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mikkyfly&layout=compact&hide_border=true&theme=github_dark&langs_count=6" alt="top langs"/>
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=mikkyfly&hide_border=true&theme=github-dark-blue" alt="streak"/>
-</div>
+<p align="center">
+  <img src="assets/smid.svg" width="100%" alt="СМИД — мониторинг промышленных устройств в реальном времени"/>
+</p>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%" alt="footer"/>
-</div>
+## 🧰 Стек
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,react,vite,materialui,nextjs,cs,dotnet,postgres,redis,docker,nginx,linux,git&perline=15"/>
+</p>
+
+## 📂 Другие проекты
+
+| Проект | О чём | Стек |
+|---|---|---|
+| [dashboard-next](https://github.com/mikkyfly/dashboard-next) | Новая версия дашборда | TypeScript |
+| [OAuthNest](https://github.com/mikkyfly/OAuthNest) | OAuth-авторизация на NestJS | TypeScript |
+| [system-monitoring-local](https://github.com/mikkyfly/system-monitoring-local) | Локальный мониторинг системы | TypeScript |
+| [OrderTransport](https://github.com/mikkyfly/OrderTransport) | Заказ транспорта, бэкенд | C# |
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt=""/>
+</p>
